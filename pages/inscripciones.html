@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga de natación del Huila</title>
+    
+    <link rel="stylesheet" href="../css/estilo.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nombre+de+la+fuente" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* Estilos para hacer el iframe responsive */
+        .responsive-iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Proporción 16:9 para un iframe responsive */
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Lina<span class="verde">Huil</span></h1>
+        
+        <a href="">
+            <img class="Logo" src="../assets/img/logoliga.jpg" alt="Logo LinaHuil">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="torneos.html">Torneos</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="inscripciones.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+
+        <button class="boton d-block">¡Todo o nada!</button>
+
+    </header>
+
+
+    <main>
+
+        <h1>Liga de natación del Huila</h1>
+
+        <h2>Contactanos</h2>
+
+
+        <center>
+
+     <form action="../index.html">
+        <div>
+
+            <label for="name">Nombre:</label>
+            <input type="text" placeholder="Digite su nombre completo" id="name" name="name" required>
+            
+        </div>
+        <br>
+        <div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="mail" placeholder="ligahuil@gmail.com" required>
+
+        </div>
+        <br>
+        <div>
+
+            <textarea name="comentario" id="comentario" cols="30"  rows="10" placeholder="Cuentenos su experiencia"></textarea>
+
+        </div>
+
+        <div>
+
+            <input type="reset" value="borrar">
+            <input type="submit" value="enviar">
+
+
+        </div>
+
+     </form>
+     
+     <div class="responsive-iframe-container">
+        <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63753.28192303194!2d-75.35520985136719!3d2.9362947000000204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b746905ccebc9%3A0xbd73d5e58d01e440!2sPiscina%20Villa%20Ol%C3%ADmpica!5e0!3m2!1ses!2sco!4v1709311746133!5m2!1ses!2sco" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+    </center>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footerContenido">
+            <div class="infoContacto">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-maker-alt"></i>Dirección: Call 17 #09 - 02, Neiva, Huila </p>
+                <p><i class="fas fa-phone"></i> Teléfono: 314 610 1987 - 313 878 2236</p>
+                <p><i class="fas fa-envelope"></i> Email: ligahuilanatacion@hotmail.com </p>
+            </div>
+            <div class="redesSociales">
+                <h4>Redes Sociales</h4>
+                
+                <a href="http://www.instagram.com/club_natacion_atlantic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+
+                <a href="http://www.facebook.com/profile.php?id=100064000393765" class="fab fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
