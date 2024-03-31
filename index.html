@@ -4,93 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liga de natación del Huila</title>
-    <link rel="stylesheet" href="css/estilo.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nombre+de+la+fuente" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="description" content="La liga de natación del Huila, entidad deportiva del sur colombiano en pro del desarrollo de las actividades acúaticas en especial natación carreras.">
     <link rel="icon" href="logoliga.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
 
     <header class="encabezado">
-        <h1>Lina<span class="verde">Huil</span></h1>
-        
-        <a href="">
-            <img class="Logo" src="assets/img/logoliga.jpg" alt="Logo LinaHuil">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/nosotros.html">Nosotros</a></li>
+        <h1>L I N A<span class="verde"> H U I L</span></h1>
+        <nav class="navbar">  
+            <ul class="menu">
+                
+                <li><a href="index.html" >Inicio</a></li>
+                <li><a href="pages/nosotros.html" >Nosotros</a></li>
+                <li><a href="pages/noticias.html" >Noticias</a></li>
                 <li><a href="pages/torneos.html">Torneos</a></li>
-                <li><a href="pages/noticias.html">Noticias</a></li>
                 <li><a href="pages/inscripciones.html">Inscripciones</a></li>
+
             </ul>
         </nav>
-
-        <button class="boton d-block">¡Todo o nada!</button>
-
     </header>
-
+    
     <section class="banner">
         <div class="bannerContenido">
-            <h2>Torneos & <span class="verde">Noticias </span></h2>
+            <h2>Torneos & <span1 class="verde">Noticias </span1></h2>
             <p>Conoce nuestra Liga </p>
-            <button class="boton"> Contacto</button>
+            <h5>Todo lo referente a la comunidad deportiva y la natación opita del sur colombiano.</h5>
+            <button class="buttonn">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Más información en inscripciones</span>
+                </span>
+            </button>
         </div> 
     </section>
 
-
-    <section id="competiciones" class="competiciones">
+    <section id="tipo_eventos" class="tipo_eventos">
         <h3>Competiciones</h3>
-        <p>Eventos avalados por la Liga</p>
+        <p>La liga maneja dos tipos de competiciones:</p>
+            - Eventos avalados por la Liga (departamentales, regionales o interclubes)</p>
+            - Eventos avalados por la Ferderación Colombiana de Natación FECNA (Interclubes e interligas)
+        </p>
+
     </section>
 
     <main class="contenedorCompeticiones">
-        
+
         <div class="tarjeta">
-            <img src="./assets/img/logoliga.jpg" alt="EventosUno">
+            <img src="./assets/img/logoliga.jpg" alt="Logo de la liga del Huila" class="logoliga">
             <a href="./pages/nosotros.html">Nosotros </a>
-            <p>Nuestro logo es un círculo con los colores distintivos del departamento del Huila, en el está el nombre de la liga y en el centro tiene un brazo con unas olas que representan la disciplina de la natación carreras. Los colores distintivos de la Liga, que se usaran en su bandera, insignias, gallardetes, escarapelas y uniformes serán los que para efectos deportivos sean los oficiales del departamento del Huila, que son blanco, verde y amarillo, cuya distribución estará de acuerdo con el diseño que se incorpora al presente estatuto.</p>
+            <p>Nuestro logo es un círculo con los colores distintivos del departamento del Huila, en el está el nombre de la liga y en el centro tiene un brazo con unas olas que representan la disciplina de la natación carreras. Los colores distintivos de la Liga, que se usarán en su bandera, insignias, gallardetes, escarapelas y uniformes serán los que para efectos deportivos sean los oficiales del departamento del Huila, que son blanco, verde y amarillo, cuya distribución estará de acuerdo con el diseño que se incorpora al presente estatuto.</p>
         </div>
-
+    
         <div class="tarjeta">
-            <img src="./assets/img/cali.jpg" alt="EventoDos">
+            <img src="./assets/img/cali.jpg" alt="Torneo Delfin de oro en Cali 2023">
             <a href="./pages/torneos.html">Torneos </a>
-            <p>Actualmente la liga del Huila manejará los torneos o eventos propiamente avalados por la misma institución, los cuales podrá conocer cuando se presenté la convocatoria.</p>
+            <p>Actualmente, la Liga del Huila se encarga de gestionar los torneos y eventos debidamente respaldados por la institución. Mantente informado sobre todas las convocatorias y competiciones próximas. Nuestro compromiso es brindarte oportunidades emocionantes para demostrar tu talento en la piscina.</p>
+        </div>
+    
+        <div class="tarjeta">
+            <img src="./assets/img/visha.jpg" alt="Villa Olímpica de Neiva">
+            <a href="./pages/noticias.html">Noticias </a>
+            <p>Descubra lo último del momento sobre nuestra vida acuática y más. Mantente al tanto de las últimas noticias, eventos y logros emocionantes en el mundo de la natación. Sumérgete en un océano de información sobre entrenamientos, competiciones y consejos para mejorar tu rendimiento en el agua. Únete a nuestra comunidad acuática y explora un mundo de oportunidades para nadadores de todos los niveles.</p>
         </div>
 
         <div class="tarjeta">
-            <img src="./assets/img/visha.jpg" alt="EventoTres">
-             <a href="./pages/noticias.html">Noticias </a>
-            <p>Descubra lo último del momento sobre nuestra vida acuatica y más.</p>
+            <img src="./assets/img/garzon.jpg" alt="Sesión de entrenamiento en Garzón / Huila">
+            <a href="./pages/inscripciones.html">Inscripciones </a>
+            <p>¿Listo para sumergirte en la emoción de la competición? Inscríbete ahora para participar en nuestro próximo torneo de natación y haz que tus habilidades acuáticas brillen. Desde nadadores novatos hasta atletas experimentados, ¡todos son bienvenidos a unirse a nosotros en la piscina! Simplemente completa nuestro sencillo formulario de inscripción en línea y prepárate para hacer olas.</p>
+        </div>
+
+        <div class="tarjetaextra">
+            <img src="./assets/img/sofia.jpg" alt="Aviso de fechas importantes">
+            <a> Fechas importantes </a>
+            <p>La primera semana de abril marca el límite para las inscripciones de deportistas y clubes en el vigésimo torneo de natación del Club Atlántic. Aprovecha esta oportunidad para participar en nuestro emocionante evento y mostrar tus habilidades en el agua. No te pierdas la oportunidad de competir y ser parte de nuestra comunidad acuática.
+                <a href="convocatoria.pdf" target="_blank">Abrir PDF</a>
+            </p>
+        </div>
+
+        <div class="tarjetaextra">
+            <img src="./assets/img/pro.jpg" alt="Documento de conformación grupo selección Huila">
+            <a> Grupo selección Huila </a>
+            <p>A principios de año, se llevó a cabo la conformación de los deportistas representantes de la Liga del Huila, quienes cumplieron con los criterios y requisitos mínimos para ser seleccionados. Este proceso asegura la participación de los mejores atletas en nuestros eventos y competiciones.
+                <a href="COMUNICADO (1).pdf" target="_blank">Abrir PDF</a>
+            </p>
         </div>
 
     </main>
 
+    <section class="logos-section">
+        <h1>ENTES INSTITUCIONALES</h1>
+
+        <div class="logo">
+            <img src="./assets/img/neivaa.jpg" alt="Logo Empresa 1">
+        </div>
+
+        <div class="logo">
+            <img src="./assets/img/gober.jpg" alt="Logo Empresa 2">
+        </div>
+
+        <div class="logo">
+            <img src="./assets/img/fecna.jpeg" alt="Logo Empresa 3">
+        </div>
+        
+        <div class="logo">
+            <img src="./assets/img/inderhuila.jpg" alt="Logo Empresa 4">
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="footerContenido">
-            <div class="infoContacto">
-                <h4>Contacto</h4>
-                <p><i class="fas fa-map-maker-alt"></i>Dirección: Call 17 #09 - 02, Neiva, Huila </p>
-                <p><i class="fas fa-phone"></i> Teléfono: 314 610 1987 - 313 878 2236 </p>
-                <p><i class="fas fa-envelope"></i> Email: ligahuilanatacion@hotmail.com </p>
+            <div class="widget">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="pages/noticias.html">Noticias</a></li>
+                    <li><a href="pages/torneos.html">Torneos</a></li>
+                    <li><a href="pages/inscripciones.html">Inscripciones</a></li>
+                </ul>
             </div>
-            <div class="redesSociales">
-                <h4>Redes Sociales</h4>
-                
-                <a href="http://www.instagram.com/club_natacion_atlantic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-
-                <a href="http://www.facebook.com/profile.php?id=100064000393765" class="fab fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+            <div class="widget">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 17 #09 - 02, Neiva, Huila </p>
+                    <p><i class="fas fa-phone"></i> Teléfono: 314 610 1987 - 313 878 2236 </p>
+                    <p><i class="fas fa-envelope"></i> Email: ligahuilanatacion@hotmail.com </p>
+                    <p><i class="fas fa-clock"></i> Horario: Lunes a Viernes, 9:00am - 5:00pm</p>
+            </div>
+            <div class="widget">
+                <h3>Redes Sociales</h3>
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/profile.php?id=100064000393765" class="fab fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/" class="fab fa-twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/club_natacion_atlantic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram" target="_blank"></a>
+                    <a href="#" class="fab fa-linkedin"target="_blank"></a>
+                </div>
             </div>
         </div>
+        <div class="copyright">
+            © 2024 LINAHUIL. Todos los derechos reservados.
+        </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+        
 </body>
 </html>
