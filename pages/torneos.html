@@ -3,68 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liga de natación del Huila</title>
+    <title>LinaHuil / Torneos </title>
+    <link rel="icon" href="../logoliga.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nombre+de+la+fuente" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header class="encabezado">
-        <h1>Lina<span class="verde">Huil</span></h1>
-        
-        <a href="">
-            <img class="Logo" src="../assets/img/logoliga.jpg" alt="Logo LinaHuil">
-        </a>
+        <h1>L I N A<span class="verde"> H U I L</span></h1>
+        <nav class="navbar">  
+            <ul class="menu">
+                
+                <li><a href="../index.html" >Inicio</a></li>
+                <li><a href="./nosotros.html" >Nosotros</a></li>
+                <li><a href="./noticias.html" >Noticias</a></li>
+                <li><a href="./torneos.html">Torneos</a></li>
+                <li><a href="./inscripciones.html">Inscripciones</a></li>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="torneos.html">Torneos</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="inscripciones.html">Inscripciones</a></li>
             </ul>
         </nav>
-
-        <button class="boton d-block">¡Todo o nada!</button>
-
     </header>
-
+ 
     <main>
         
-        <h1>Liga de natación del Huila</h1>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b7HBYYf9Dhk?si=kSDnGE1-1joAan0x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
 
-        <h2>Que el entrenamiento sea tan fuerte que la guerra sea un descanso</h2>
+    <div class="torneos-container">
+        <!-- Torneo 1 -->
+        <input type="checkbox" id="toggle1" class="toggle">
+        <label for="toggle1" class="titulo-torneo">Vigésimo torneo natación club Atlantic "AVALADO"</label>
+        <div class="contenido-torneo">
+                <p>Fecha: 27 y 28 de abril de 2024</p>
+                <p>Lugar: Piscina Recreativa Manila</p>
+                <img src="../assets/img/colombia.jpg" alt="Torneo club Atlantic">
+                <a href="../convocatoria.pdf" target="_blank" rel="noopener noreferrer">Convocatoria PDF</a></p>
+        </div>
 
-        <br> <br>
+        <!-- Torneo 2 -->
+        <input type="checkbox" id="toggle2" class="toggle">
+        <label for="toggle2" class="titulo-torneo">Interligas infantil 2024 "FEDERADO"</label>
+        <div class="contenido-torneo">
+                <p>Fecha: 19 al 22 de junio de 2024</p>
+                <p>Lugar: Villa Olímpica de Medellín </p>
+                <img src="../assets/img/gabriela.jpg" alt="Interligas infantil Medellín">
+                <a href="https://fecna.com.co/index.php/evento/natacion-carreras-festival-nacional-infantil-i/" target="_blank" rel="noopener noreferrer">Convocatoria </a></p>
+        </div>
+        <!-- Torneo 3 -->
+        <input type="checkbox" id="toggle3" class="toggle">
+        <label for="toggle3" class="titulo-torneo">Interligas juvenil y mayores 2024 "FEDERADO"</label>
+        <div class="contenido-torneo">
+            <p>Fecha: 20 de julio de 2024</p>
+                <p>Lugar: Complejo acuático Cartagena de Indias</p>
+                <img src="../assets/img/versus.jpg" alt="Interligas juvenil y mayores">
+                <a href="../INSTRUCTIVO FECNA 2024 NATACION CARRERAS FINAL.pdf" target="_blank" rel="noopener noreferrer">Convocatoria PDF</a></p>
+        </div>
 
-        <iframe src="https://www.youtube.com/embed/mDQDTPWNcQ0?si=JRY4AK6w3U9s8Yv5" frameborder="0"></iframe>
+        <!-- Torneo 4 -->
+        <input type="checkbox" id="toggle4" class="toggle">
+        <label for="toggle4" class="titulo-torneo">Juegos supérate intercolegiados 2024 "FEDERADO"</label>
+        <div class="contenido-torneo">
+            <p>Fecha: Por definir</p>
+                <p>Lugar: Por definir</p>
+                <img src="../assets/img/sisisi.jpg" alt="Juegos supérate intercolegiados">
+                <a href="https://www.juegosintercolegiados.gov.co/mindeporte/eventos-programas-institucionales/intercolegiados/sala-prensa/noticias/inscripciones-abiertas-para-superate-intercolegiados" target="_blank" rel="noopener noreferrer">Convocatoria </a></p>
+        </div>
+    </div>
 
     </main>
 
+    <div class="torneoo-info">
+        <div class="card">
+            <h2>Organizado por el Club Atlantic el vigésimo torneo</h2>
+            <img src="../assets/img/club.jpg" alt="Foto del Club Atlantic">
+            <p>El Vigésimo Torneo del Club Atlantic es organizado por el prestigioso Club Atlantic, una institución dedicada a promover la natación y el deporte en la región. Este evento es avalado por la Liga de Natación del Huila, lo que garantiza su calidad y relevancia en el ámbito deportivo.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Entrenador Promotor</h3>
+            <img src="../assets/img/profe.jpg" alt="Foto del Entrenador">
+            <p>El entrenador y licenciado Jairo Enrique Vargas Valencia es el principal promotor de este evento y un destacado miembro del Club Atlantic. Con una vasta experiencia en la enseñanza y entrenamiento de nadadores de todas las edades y niveles, ha demostrado un compromiso excepcional con el desarrollo y el éxito de los atletas del club.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Presidenta de la Liga del Huila</h3>
+            <img src="../assets/img/comite.jpg" alt="Foto de la Presidenta de la Liga del Huila">
+            <p>Gloria Cortés es la actual presidenta de la Liga de Natación del Huila. Su liderazgo y dedicación han contribuido significativamente al desarrollo y promoción de la natación en la región. Su apoyo es fundamental para la realización exitosa de eventos como el Vigésimo Torneo del Club Atlantic.</p>
+        </div>
+    </div>        
+    
     <footer class="footer">
         <div class="footerContenido">
-            <div class="infoContacto">
-                <h4>Contacto</h4>
-                <p><i class="fas fa-map-maker-alt"></i>Dirección: Call 17 #09 - 02, Neiva, Huila </p>
-                <p><i class="fas fa-phone"></i> Teléfono: 314 610 1987 - 313 878 2236 </p>
-                <p><i class="fas fa-envelope"></i> Email: ligahuilanatacion@hotmail.com </p>
+            <div class="widget">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./torneos.html">Torneos</a></li>
+                    <li><a href="./inscripciones.html">Inscripciones</a></li>
+                </ul>
             </div>
-            <div class="redesSociales">
-                <h4>Redes Sociales</h4>
-                
-                <a href="http://www.instagram.com/club_natacion_atlantic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-
-                <a href="http://www.facebook.com/profile.php?id=100064000393765" class="fab fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+            <div class="widget">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 17 #09 - 02, Neiva, Huila </p>
+                    <p><i class="fas fa-phone"></i> Teléfono: 314 610 1987 - 313 878 2236 </p>
+                    <p><i class="fas fa-envelope"></i> Email: ligahuilanatacion@hotmail.com </p>
+                    <p><i class="fas fa-clock"></i> Horario: Lunes a Viernes, 9:00am - 5:00pm</p>
+            </div>
+            <div class="widget">
+                <h3>Redes Sociales</h3>
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/profile.php?id=100064000393765" class="fab fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/" class="fab fa-twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/club_natacion_atlantic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram" target="_blank"></a>
+                    <a href="#" class="fab fa-linkedin"target="_blank"></a>
+                </div>
             </div>
         </div>
+        <div class="copyright">
+            © 2024 LINAHUIL. Todos los derechos reservados.
+        </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>
